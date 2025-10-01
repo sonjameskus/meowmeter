@@ -67,7 +67,6 @@ logoutBtn.addEventListener("click", function() {
   localStorage.clear();
   username.reset();
 
-
   loginMsg.textContent = "";
   dataMsg.textContent = "";
   kubios.style.display = "inline-block";
